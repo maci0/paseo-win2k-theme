@@ -1,0 +1,14 @@
+{
+  "name": "paseo-win2k-theme",
+  "private": true,
+  "version": "0.1.0",
+  "description": "The Windows 2000 \"Windows Standard\" color scheme for Paseo",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.15.3",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "win2k-theme",
+  "name": "Windows 2000",
+  "description": "The Windows 2000 \"Windows Standard\" color scheme for Paseo",
+  "media": ["assets/screenshot-chat.png", "assets/screenshot-diff.png"],
+  "requirements": {
+    "paseo": ">=0.15.3"
+  }
+}
