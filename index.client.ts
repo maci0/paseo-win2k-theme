@@ -1,4 +1,5 @@
 import type { PluginClientContext } from "@getpaseo/plugin/client";
+import { installChrome } from "./client/web";
 
 // Windows 2000 "Windows Standard" scheme, HKCU\Control Panel\Colors defaults.
 export default function contribute(client: PluginClientContext) {
@@ -17,5 +18,5 @@ export default function contribute(client: PluginClientContext) {
       ring: "#808080", // GrayText
     },
   });
-  return () => {};
+  return installChrome();
 }

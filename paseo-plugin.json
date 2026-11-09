@@ -1,8 +1,8 @@
 {
   "id": "win2k-theme",
   "name": "Windows 2000",
-  "description": "The Windows 2000 \"Windows Standard\" color scheme for Paseo",
-  "media": ["assets/screenshot-chat.png", "assets/screenshot-diff.png"],
+  "description": "The Windows 2000 look for Paseo: Windows Standard colors, desktop blue, gradient title bars and 3D controls",
+  "media": ["assets/screenshot-chat.png", "assets/screenshot-dialog.png"],
   "requirements": {
     "paseo": ">=0.15.3"
   }

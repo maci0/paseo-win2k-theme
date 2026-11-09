@@ -1,14 +1,15 @@
 {
   "name": "paseo-win2k-theme",
   "private": true,
-  "version": "0.1.0",
-  "description": "The Windows 2000 \"Windows Standard\" color scheme for Paseo",
+  "version": "0.2.0",
+  "description": "The Windows 2000 look for Paseo: Windows Standard colors, desktop blue, gradient title bars and 3D controls",
   "license": "MIT",
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@getpaseo/plugin": "0.15.3",
+    "react-native": "0.81.5",
     "typescript": "^5.9.3"
   }
 }
