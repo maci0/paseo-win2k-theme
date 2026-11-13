@@ -61,8 +61,11 @@ CSS cannot select on computed styles, so [client/web.ts](client/web.ts) watches 
 ```bash
 bun install
 bun run typecheck
+bun test
 paseo plugin install "$PWD"
 paseo plugin reload win2k-theme
 ```
+
+`bun test` drives the client entry in [happy-dom](https://github.com/capricorn86/happy-dom) and checks the registered palette, the injected stylesheet, button and dialog marking, and cleanup.
 
 Changes are logged in [docs/provenance.md](docs/provenance.md).

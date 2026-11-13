@@ -2,7 +2,7 @@ import type { PluginClientContext } from "@getpaseo/plugin/client";
 import { installChrome } from "./client/web";
 
 // Windows 2000 "Windows Standard" scheme, HKCU\Control Panel\Colors defaults.
-export default function contribute(client: PluginClientContext) {
+export default function contribute(client: Pick<PluginClientContext, "addTheme">) {
   client.addTheme({
     id: "windows-2000",
     name: "Windows 2000",

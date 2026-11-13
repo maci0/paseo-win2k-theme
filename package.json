@@ -5,10 +5,13 @@
   "description": "The Windows 2000 look for Paseo: Windows Standard colors, desktop blue, gradient title bars and 3D controls",
   "license": "MIT",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tests",
+    "test": "bun test"
   },
   "devDependencies": {
     "@getpaseo/plugin": "0.15.3",
+    "@types/bun": "^1.4.4",
+    "happy-dom": "^21.0.4",
     "react-native": "0.81.5",
     "typescript": "^5.9.3"
   }
